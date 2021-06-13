@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "gym-proyecto": {
+      "hosting": {
+        "proyectogym": [
+          "gym-proyecto"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "gym-proyecto"
+  }
+}

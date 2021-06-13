@@ -1,0 +1,19 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Administración</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" routerLink="/listadoinscripciones">Ver Reservas</a>
+      <a class="nav-item nav-link" routerLink="/inscripcion">Reservas</a>
+
+      <a class="nav-item nav-link" routerLink="/agregarcliente">Agregar Clientes</a>
+      <a class="nav-item nav-link" routerLink="/listadoclientes">Ver clientes</a>
+      <a class="nav-item nav-link" routerLink="/precios">Tour</a>
+
+    </div>
+  </div>
+  <button class="btn btn-outline-danger" (click)="logout()">Salir</button>
+</nav>
